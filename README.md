@@ -1,3 +1,4 @@
 # veridion_task2
 
 The first step was to do text processing by removing punctuation, lowering the text, etc . This was used only for the description column, as the others already had the "clean text". After that I took the five most frequent words for each company. The code for taxonomy assignment was done by giving weights to each column in excel with companies and using the five most frequent words. I used cosine similarity to get the most similar taxonomy of the processed text. The idea with the weight was to make eqch column more or less important, as I thought that not all of them mattered equally. Finally, I printed the top 10 companies and their most expected taxonomies by cosine similarity and updated the excel with the companies.
+I tried to train a BERT model but the results were not good at all and the runtime was very long.
